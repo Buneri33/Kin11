@@ -25,7 +25,7 @@ import time
 import requests
 import random
 import platform
-import base32
+import base64
 import subprocess 
 from concurrent.futures import ThreadPoolExecutor
 import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess
@@ -44,7 +44,7 @@ from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 from rich.console import Group as gp
 from rich.panel import Panel as nel
-import base32
+import base64
 from rich import print as cetak
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
